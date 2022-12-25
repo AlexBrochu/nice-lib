@@ -14,7 +14,8 @@ npm install @alexbrochu/nice-lib
 # Usage
 
 ```js
-const EventType = require("@alexbrochu/nice-lib");
+import {EventType, Test} from '@alexbrochu/nice-lib';
 
-EventType.Registration
+console.log(EventType);
+console.log(Test.compute('hello'));
 ```
