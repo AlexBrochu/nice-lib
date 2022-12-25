@@ -19,3 +19,26 @@ import {EventType, Test} from '@alexbrochu/nice-lib';
 console.log(EventType);
 console.log(Test.compute('hello'));
 ```
+
+# Setup Typescript project
+
+- Install typescript
+
+```
+npm i typescript --save-dev
+```
+
+- Compile typescript
+
+```
+npx tsc
+```
+
+- Using Google TypeScript Style to Lint and Correct Your Code
+
+```
+npm i gts --save-dev
+npx gts init
+```
+
+https://www.digitalocean.com/community/tutorials/typescript-new-project
